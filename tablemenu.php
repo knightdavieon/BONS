@@ -37,7 +37,7 @@ h1{
 	text-align: left;
 }
 .hero-image{
-  background-image: url("web2.jpg"); /* The image used */
+  background-image: url("resources/images/web2.jpg"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
   height: auto; /* You must set a specified height */
   width: auto;
