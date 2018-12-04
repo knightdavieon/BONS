@@ -186,58 +186,58 @@ label{
 						  	<div class="row">
 						  		<div class="col-md-4" style="margin-bottom: 10px;">
 						  			<label>Pancit Seafood</label>
-						  			<a href="#pancit" role="button" data-toggle="modal"> <img src="pancitseafood.png" class="responsive"></a>	
+						  			<a href="#pancit" role="button" data-toggle="modal"> <img src="resources/images/pancitseafood.png" class="responsive"></a>	
 						  		</div>
 
 						  		<div class="col-md-4" style="margin-bottom: 10px;">
 						  			<label>Common Pancit</label>
-						  			<a href="#pancitcommon" role="button" data-toggle="modal"><img src="pancit.png" class="responsive"></a>
+						  			<a href="#pancitcommon" role="button" data-toggle="modal"><img src="resources/images/pancit.png" class="responsive"></a>
 						  		</div>
 						  		<div class="col-md-4" style="margin-bottom: 10px;">
 						  			<label>Pancit Miki Bihon</label>
-						  			<a href="#pancitmb" role="button" data-toggle="modal"><img src="pancitmikibihon.png" class="responsive"></a>
+						  			<a href="#pancitmb" role="button" data-toggle="modal"><img src="resources/images/pancitmikibihon.png" class="responsive"></a>
 						  		</div>		
 						  	</div>
 
 						  	<div class="row">
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<a href="#pancitcanton" role="button" data-toggle="modal"><img src="pancitcanton.png" class="responsive"></a>
+							  		<a href="#pancitcanton" role="button" data-toggle="modal"><img src="resources/images/pancitcanton.png" class="responsive"></a>
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<a href="#lomi" role="button" data-toggle="modal"><img src="lomi.png" class="responsive"></a>
+							  		<a href="#lomi" role="button" data-toggle="modal"><img src="resources/images/lomi.png" class="responsive"></a>
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<a href="#chowmien" role="button" data-toggle="modal"><img src="chowmien.png" class="responsive"></a>
-							  	</div>
-							</div>
-
-							<div class="row">
-							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<a href="#beefmami" role="button" data-toggle="modal"><img src="beefmami.png" class="responsive"></a>
-							  	</div>
-
-							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<a href="#chickenmami" role="button" data-toggle="modal"><img src="chickenmami.png" class="responsive"></a>
-							  	</div>
-
-							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<a href="#supermami" role="button" data-toggle="modal"><img src="supermami.png" class="responsive"></a>
+							  		<a href="#chowmien" role="button" data-toggle="modal"><img src="resources/images/chowmien.png" class="responsive"></a>
 							  	</div>
 							</div>
 
 							<div class="row">
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<a href="#pancitsotanghon" role="button" data-toggle="modal"><img src="pancitsotanghon.png" class="responsive"></a>
+							  		<a href="#beefmami" role="button" data-toggle="modal"><img src="resources/images/beefmami.png" class="responsive"></a>
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<a href="#pancitmalabon" role="button" data-toggle="modal"><img src="pancitmalabon.png" class="responsive"></a>
+							  		<a href="#chickenmami" role="button" data-toggle="modal"><img src="resources/images/chickenmami.png" class="responsive"></a>
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<a href="#pancitpalabok" role="button" data-toggle="modal"><img src="pancitpalabok.png" class="responsive"></a>
+							  		<a href="#supermami" role="button" data-toggle="modal"><img src="resources/images/supermami.png" class="responsive"></a>
+							  	</div>
+							</div>
+
+							<div class="row">
+							  	<div class="col-md-4" style="margin-bottom: 10px;">
+							  		<a href="#pancitsotanghon" role="button" data-toggle="modal"><img src="resources/images/pancitsotanghon.png" class="responsive"></a>
+							  	</div>
+
+							  	<div class="col-md-4" style="margin-bottom: 10px;">
+							  		<a href="#pancitmalabon" role="button" data-toggle="modal"><img src="resources/images/pancitmalabon.png" class="responsive"></a>
+							  	</div>
+
+							  	<div class="col-md-4" style="margin-bottom: 10px;">
+							  		<a href="#pancitpalabok" role="button" data-toggle="modal"><img src="resources/images/pancitpalabok.png" class="responsive"></a>
 							  	</div>
 							</div>
 
@@ -247,53 +247,53 @@ label{
 						  <h3>Choose Your Sea Food</h3>
 						  	<div class="row">
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<a href="#butteredshrimp" role="button" data-toggle="modal"><img src="butteredshrimp.png" class="responsive"></a>
+							  		<a href="#butteredshrimp" role="button" data-toggle="modal"><img src="resources/images/butteredshrimp.png" class="responsive"></a>
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<a href="#kilawingpusit" role="button" data-toggle="modal"><img src="kilawingpusit.png" class="responsive"></a>
+							  		<a href="#kilawingpusit" role="button" data-toggle="modal"><img src="resources/images/kilawingpusit.png" class="responsive"></a>
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<a href="#adobongpusit" role="button" data-toggle="modal"><img src="adobongpusit.png" class="responsive"></a>
+							  		<a href="#adobongpusit" role="button" data-toggle="modal"><img src="resources/images/adobongpusit.png" class="responsive"></a>
 							  	</div>
 							 </div> 
 
 							  <div class="row">
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<a href="#fishfillet" role="button" data-toggle="modal"><img src="fishfillet.png" class="responsive"></a>
+							  		<a href="#fishfillet" role="button" data-toggle="modal"><img src="resources/images/fishfillet.png" class="responsive"></a>
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<a href="#calamares" role="button" data-toggle="modal"><img src="calamares.png" class="responsive"></a>
+							  		<a href="#calamares" role="button" data-toggle="modal"><img src="resources/images/calamares.png" class="responsive"></a>
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<a href="#tempura" role="button" data-toggle="modal"><img src="tempura.png" class="responsive">
+							  		<a href="#tempura" role="button" data-toggle="modal"><img src="resources/images/tempura.png" class="responsive">
 							  	</div></a>
 							  </div> 
 
 							  <div class="row">
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<a href="#seafoodcurry" role="button" data-toggle="modal"><img src="seafoodcurry.png" class="responsive"></a>
+							  		<a href="#seafoodcurry" role="button" data-toggle="modal"><img src="resources/images/seafoodcurry.png" class="responsive"></a>
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<a href="#fishfilletsweetandsour" role="button" data-toggle="modal"><img src="fishfilletsweetandsour.png" class="responsive"></a>
+							  		<a href="#fishfilletsweetandsour" role="button" data-toggle="modal"><img src="resources/images/fishfilletsweetandsour.png" class="responsive"></a>
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<a href="#squidwithoystersauce" role="button" data-toggle="modal"><img src="squidwithoystersauce.png" class="responsive"></a>
+							  		<a href="#squidwithoystersauce" role="button" data-toggle="modal"><img src="resources/images/squidwithoystersauce.png" class="responsive"></a>
 							  	</div>
 							  </div>
 
 							  <div class="row">
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<a href="#sinigangnatanigue" role="button" data-toggle="modal"><img src="sinigangnatanigue.png" class="responsive"></a>
+							  		<a href="#sinigangnatanigue" role="button" data-toggle="modal"><img src="resources/images/sinigangnatanigue.png" class="responsive"></a>
 							  	</div>
 
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<a href="#shrimpwithoystersauce" role="button" data-toggle="modal"><img src="shrimpwithoystersauce.png" class="responsive"></a>
+							  		<a href="#shrimpwithoystersauce" role="button" data-toggle="modal"><img src="resources/images/shrimpwithoystersauce.png" class="responsive"></a>
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
@@ -306,99 +306,99 @@ label{
 						  <h3>Choose Your Meat</h3>
 							<div class="row">
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="karekare.png" class="responsive">
+							  		<img src="resources/images/karekare.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="asado.png" class="responsive">
+							  		<img src="resources/images/asado.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<img src="sweetandsourpork.png" class="responsive">
+							  		<img src="resources/images/sweetandsourpork.png" class="responsive">
 							  	</div>
 							 </div>  
 
 							 <div class="row">
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="liverwithonion.png" class="responsive">
+							  		<img src="resources/images/liverwithonion.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="beefwithyoungcorn.png" class="responsive">
+							  		<img src="resources/images/beefwithyoungcorn.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<img src="chickenteriyaki.png" class="responsive">
+							  		<img src="resources/images/chickenteriyaki.png" class="responsive">
 							  	</div>
 							 </div>
 
 							 <div class="row">
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="lemonchicken.png" class="responsive">
+							  		<img src="resources/images/lemonchicken.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="orangechicken.png" class="responsive">
+							  		<img src="resources/images/orangechicken.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<img src="chickencurry.png" class="responsive">
+							  		<img src="resources/images/chickencurry.png" class="responsive">
 							  	</div>
 							 </div>
 
 							 <div class="row">
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="beefsteak.png" class="responsive">
+							  		<img src="resources/images/beefsteak.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="beeftapa.png" class="responsive">
+							  		<img src="resources/images/beeftapa.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<img src="salpicao.png" class="responsive">
+							  		<img src="resources/images/salpicao.png" class="responsive">
 							  	</div>
 							 </div> 
 
 							 <div class="row">
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="beefcaldereta.png" class="responsive">
+							  		<img src="resources/images/beefcaldereta.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="papaitangbaka.png" class="responsive">
+							  		<img src="resources/images/papaitangbaka.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<img src="hotchickenwings.png" class="responsive">
+							  		<img src="resources/images/hotchickenwings.png" class="responsive">
 							  	</div>
 							 </div> 
 
 							 <div class="row">
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="lechonkawali.png" class="responsive">
+							  		<img src="resources/images/lechonkawali.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="sisig.png" class="responsive">
+							  		<img src="resources/images/sisig.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<img src="porksinigang.png" class="responsive">
+							  		<img src="resources/images/porksinigang.png" class="responsive">
 							  	</div>
 							 </div>   
 
 							  <div class="row">
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="bulalo.png" class="responsive">
+							  		<img src="resources/images/bulalo.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="crispypata.png" class="responsive">
+							  		<img src="resources/images/crispypata.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<img src="friedchicken.png" class="responsive">
+							  		<img src="resources/images/friedchicken.png" class="responsive">
 							  	</div>
 							 </div>  
 						</div>
@@ -407,29 +407,29 @@ label{
 						  <h3>Choose Your Vegetable</h3>
 						   <div class="row">
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="beefbrocoli.png" class="responsive">
+							  		<img src="resources/images/beefbrocoli.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="shrimpbrocoli.png" class="responsive">
+							  		<img src="resources/images/shrimpbrocoli.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<img src="ampalayawithbeef.png" class="responsive">
+							  		<img src="resources/images/ampalayawithbeef.png" class="responsive">
 							  	</div>
 							 </div>  
 
 							 <div class="row">
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="chopsuey.png" class="responsive">
+							  		<img src="resources/images/chopsuey.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="eggfooyoung.png" class="responsive">
+							  		<img src="resources/images/eggfooyoung.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<img src="chicharowithshrimp.png" class="responsive">
+							  		<img src="resources/images/chicharowithshrimp.png" class="responsive">
 							  	</div>
 							 </div>  
 						</div>
@@ -438,29 +438,29 @@ label{
 						  <h3>Choose Your Dessert</h3>
 						   <div class="row">
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="lecheflan.png" class="responsive">
+							  		<img src="resources/images/lecheflan.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="halohalo.png" class="responsive">
+							  		<img src="resources/images/halohalo.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<img src="maisconyelo.png" class="responsive">
+							  		<img src="resources/images/maisconyelo.png" class="responsive">
 							  	</div>
 							 </div> 
 
 							 <div class="row">
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="mangograham.png" class="responsive">
+							  		<img src="resources/images/mangograham.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md" style="margin-bottom: 10px;">
-							  		<img src="gulaman.png" class="responsive">
+							  		<img src="resources/images/gulaman.png" class="responsive">
 							  	</div>
 
 							  	<div class="col-md-4" style="margin-bottom: 10px;">
-							  		<img src="tapioca.png" class="responsive">
+							  		<img src="resources/images/tapioca.png" class="responsive">
 							  	</div>
 							 </div>   
 						</div>

@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="login-box">
-	<img src="loginicon.png" class="loginicon">
+	<img src="resources/images/loginicon.png" class="loginicon">
 		<h1>Bons Restaurant</h1>
 			<form>
 				<p>Username</p>

@@ -70,13 +70,13 @@ h1{
 					  </ol>
 					  <div class="carousel-inner">
 					    <div class="carousel-item active">
-					      <img class="d-block w-100 img" src="4.jpg" alt="First slide">
+					      <img class="d-block w-100 img" src="resources/images/4.jpg" alt="First slide">
 					    </div>
 					    <div class="carousel-item">
-					      <img class="d-block w-100 img" src="3.jpg" alt="Second slide">
+					      <img class="d-block w-100 img" src="resources/images/3.jpg" alt="Second slide">
 					    </div>
 					    <div class="carousel-item">
-					      <img class="d-block w-100 img" src="2.jpg" alt="Third slide">
+					      <img class="d-block w-100 img" src="resources/images/2.jpg" alt="Third slide">
 					    </div>
 					  </div>
 					  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -93,7 +93,7 @@ h1{
 			<div class="card-body">
 				<div class="row">
 					<div class="col-md-4">
-						<a href="#table1" role="button" data-toggle="modal"><img src="1.png" class="responsive"></a>
+						<a href="#table1" role="button" data-toggle="modal"><img src="resources/images/1.png" class="responsive"></a>
 
 						<div class="modal fade" id="table1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 							  <div class="modal-dialog modal-lg" role="document">
@@ -206,39 +206,39 @@ h1{
 					</div>
 
 					<div class="col-md-4">
-						<img src="2.png" class="responsive">
+						<img src="resources/images/2.png" class="responsive">
 					</div>
 
 					<div class="col-md-4">
-						<img src="3.png" class="responsive">
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-4">
-						<img src="4.png" class="responsive">
-					</div>
-
-					<div class="col-md-4">
-						<img src="5.png" class="responsive">
-					</div>
-
-					<div class="col-md-4">
-						<img src="6.png" class="responsive">
+						<img src="resources/images/3.png" class="responsive">
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="col-md-4">
-						<img src="7.png" class="responsive">
+						<img src="resources/images/4.png" class="responsive">
 					</div>
 
 					<div class="col-md-4">
-						<img src="8.png" class="responsive">
+						<img src="resources/images/5.png" class="responsive">
 					</div>
 
 					<div class="col-md-4">
-						<img src="9.png" class="responsive">
+						<img src="resources/images/6.png" class="responsive">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4">
+						<img src="resources/images/7.png" class="responsive">
+					</div>
+
+					<div class="col-md-4">
+						<img src="resources/images/8.png" class="responsive">
+					</div>
+
+					<div class="col-md-4">
+						<img src="resources/images/9.png" class="responsive">
 					</div>
 				</div>
 			</div>
