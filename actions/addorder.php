@@ -1,6 +1,7 @@
 <?php
 include_once("../accessdb.php");
-session_start();
+echo "asdasdasdas";
+//session_start();
 if (!empty($_POST)){
 	$table1 = $_POST['table1'];
 	$table2 = $_POST['table2'];
@@ -12,6 +13,7 @@ if (!empty($_POST)){
 	$table8 = $_POST['table8'];
 	$table9 = $_POST['table9'];
 
+	$table="table1";
 	$status="On Process";
 	
 
@@ -35,7 +37,7 @@ if (!empty($_POST)){
 	    VALUES(:order_id, :table_number, :status)");
 		$insertpersonal->execute(array(
 			"order_id" => $upcode,
-		    "table_number" => $table1 + $table2 + $table3 + $table4 + $table5 + $table6 + $table7 + $table8 + $table9,
+		    "table_number" => $table,
 		    "status" => $status
 		   
 		));
