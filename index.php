@@ -67,12 +67,13 @@ if(!empty($_POST)){
 <div class="login-box">
 	<img src="resources/images/loginicon.png" class="loginicon">
 		<h1>Bons Restaurant</h1>
-			<form>
+     <?php if(isset($_SESSION['loginNotifications'])){echo $_SESSION['loginNotifications']; unset($_SESSION['loginNotifications']);} ?>
+			 <form class="" action=" " method="post">
 				<p>Username</p>
-				<input type="text" name="Username" placeholder="Enter Username">
+				<input type="text" name="accountname" placeholder="Enter Username">
 				<p>Password</p>
-				<input type="Password" name="Password" placeholder="Enter Password">
-				<input type="submit" name="Submit" value="Login" formaction="tablemenu.php">
+				<input type="Password" name="accountpassword" placeholder="Enter Password">
+				<input type="submit" name="Submit" value="Login">
 
 			</form>
 </div>

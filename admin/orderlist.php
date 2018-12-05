@@ -1,6 +1,7 @@
 <?php
-include("../accessdb.php");
 include("sessionhandler.php");
+include("../accessdb.php");
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,11 +13,11 @@ include("sessionhandler.php");
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="This is a websystem that is created for the compliance of the requirements for the capstone project of the student clients">
     <meta name="author" content="John Dave Espinosa">
-   
+    <link rel="icon" type="../resources/images/png" sizes="16x16" href="../resources/images/GADDSEAPLOGOV2.png">
     <!-- Favicon icon -->
-   
+    <link rel="icon" type="image/png" sizes="16x16" href="#">
 
-    <title>BON'S RESTAURANT</title>
+    <title>GADDSEAP</title>
     <!-- Bootstrap Core CSS -->
     <link href="../resources/admindesign/css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -57,73 +58,76 @@ include("sessionhandler.php");
             <!-- Bread crumb -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h3 class="text-primary">Dashboard</h3> </div>
+                    <h3 class="text-primary">Student List</h3> </div>
                 <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                        <li class="breadcrumb-item active">Dashboard</li>
+                        <li class="breadcrumb-item active">Student List</li>
                     </ol>
                 </div>
             </div>
             <!-- End Bread crumb -->
             <!-- Container fluid  -->
+        
+
             <div class="container-fluid">
                 <!-- Start Page Content -->
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-12">
                         <div class="card p-30">
-                            <div class="media">
-                                <div class="media-left meida media-middle">
-                                    <span><i class="fa fa-exclamation f-s-60 color-primary"></i></span>
-                                </div>
-                                <div class="media-body media-text-right">
-                                    <h2><?php
+                            <div class="card-title">
+                                  <a class="btn btn-primary" href="form"><i class="fa fa-plus"></i> ADD</a>
 
-                                    ?></h2>
-                                    <p class="m-b-0">Number of Students</p>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table id="myTable2" class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <td>Order ID</td>
+                                                <td>Table Number</td>
+                                                <td>Status</td>
+                                        
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php
+                                               
+                      $selectcustomer_order = $conn->query("SELECT * FROM customer_order");
+                      $i='1';
+                      While($rowcustomer_order = $selectcustomer_order->fetch(PDO::FETCH_ASSOC)){
+                                            ?>
+                                            <tr>
+
+                            <td><?php echo $rowcustomer_order['order_id']; ?></td>
+                            <td><?php echo $rowcustomer_order['table_number']; ?></td>
+                            <td><?php echo $rowcustomer_order['status']; ?></td>
+                            
+                             <td>   <!-- Delete -->
+                            <button class="btn btn-rounded btn-danger"  href="#deleterecord<?php echo $i;?>" data-toggle="modal" data-target="#deleterecord<?php echo $i;?>"><i class="fa fa-trash" aria-hidden="true"></i></button>
+
+
+                            <!-- Edit -->
+                            <form method="post" action="editform.php">
+                              <input type="hidden" name="selectedid" value="<?php echo $selectedid;?>">
+                              <button class="btn btn-rounded btn-primary" ><i class="fa fa-id-card" aria-hidden="true"></i></button>
+                            </form></td>
+                                            </tr>
+                                                  <?php include('actions/records/recordpop.php');
+                                            $i++;
+                                             } ?>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card p-30">
-                            <div class="media">
-                                <div class="media-left meida media-middle">
-                                    <span><i class="fa fa-book f-s-60 color-green"></i></span>
-                                </div>
-                                <div class="media-body media-text-right">
-                                    <h2><?php
 
-                                    ?></h2>
-                                    <p class="m-b-0">Pending</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card p-30">
-                            <div class="media">
-                                <div class="media-left meida media-middle">
-                                    <span><i class="fa fa-check f-s-60 color-warning"></i></span>
-                                </div>
-                                <div class="media-body media-text-right">
-                                    <h2><?php
-                                    // $selectchecked = $conn->query("SELECT count(*) FROM reservations where reservation_status = 'CHECKED IN'");
-                                    // $number_of_rows3 = $selectchecked->fetchColumn();
-                                    //
-                                    // echo $number_of_rows3;
-
-                                    ?></h2>
-                                    <p class="m-b-0">Pending</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <!-- End PAge Content -->
             </div>
 
-            
+
             <!-- End Container fluid  -->
             <!-- footer -->
             <footer class="footer"> © 2018 All rights reserved.</footer>

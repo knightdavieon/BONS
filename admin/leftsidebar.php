@@ -7,7 +7,7 @@
             <ul id="sidebarnav">
                 <li> <a href="index" aria-expanded="false"><i class="fa fa-tachometer"></i><span class="hide-menu">Dashboard </span></a></li>
                          <li class="nav-devider"></li>
-                 <li> <a href="studentlist" aria-expanded="false"><i class="fa fa-list"></i><span class="hide-menu">Order List </span></a>
+                 <li> <a href="orderlist" aria-expanded="false"><i class="fa fa-list"></i><span class="hide-menu">Order List </span></a>
                 </li>
                 <li class="nav-devider"></li>
                 <li class="nav-label">Settings</li>

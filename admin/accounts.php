@@ -1,6 +1,6 @@
 <?php
 include_once("../accessdb.php");
-//include("sessionhandler.php");
+include("sessionhandler.php");
 //include_once("scriptvalidation.php");
 
 ?>
@@ -15,7 +15,7 @@ include_once("../accessdb.php");
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="../resources/images/png" sizes="16x16" href="../resources/images/GADDSEAPLOGOV2.png">
+   
     <title>BON'S RESTAURANT</title>
     <!-- Bootstrap Core CSS -->
     <link href="../resources/admindesign/css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -212,7 +212,7 @@ include_once("../accessdb.php");
                                                 <td><?php echo $row['account_status']; ?></td>
                                                 <td>
 
-                                                    <?php if($_SESSION['account_type'] == "admin" || $_SESSION['account_type'] == "adminsec" || $_SESSION['account_type'] == "it" || $_SESSION['account_type'] == "SUPER ADMIN"){?>
+                                                    <?php if($_SESSION['account_type'] == "manager" || $_SESSION['account_type'] == "casher" || $_SESSION['account_type'] == "waiter"|| $_SESSION['account_type'] == "kitchen staff" || $_SESSION['account_type'] == "SUPER ADMIN"){?>
                                                         <?php if($row['account_status'] != 'ACTIVE'){ ?>
 
 

@@ -4,7 +4,7 @@ SESSION_START();
 if(empty($_SESSION['accountid']) || empty($_SESSION['accountname'])){
 	echo ("<script language='JavaScript'>
 
-				window.location.href='../g4dds34p';
+				window.location.href='../index';
 				</SCRIPT>");
 }
 ?>

@@ -1,3 +1,7 @@
+<?php
+include("accessdb.php");
+//include("sessionhandler.php");
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -91,9 +95,12 @@ h1{
 			</div>
 			<h1 style="padding-left: 20px;">Bon's Restaurant</h1>
 			<div class="card-body">
+				<form method="POST" action="actions/addorder.php">
 				<div class="row">
 					<div class="col-md-4">
+						
 						<a href="#table1" role="button" data-toggle="modal"><img src="resources/images/1.png" class="responsive"></a>
+
 
 						<div class="modal fade" id="table1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 							  <div class="modal-dialog modal-lg" role="document">
@@ -192,7 +199,7 @@ h1{
 							      	<div class="col-md-12">
 								      	<div class="row">
 									      	<div class="col-md-6">
-									       		<button type="submit" class="btn btn-success" formaction="menu.php">Place Order</button>
+									       		<button type="submit" class="btn btn-success">Place Order</button>
 									        </div>
 									        <div class="col-md-6">
 									       		<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
@@ -204,6 +211,7 @@ h1{
 							  </div>
 						</div>
 					</div>
+				</form>
 
 					<div class="col-md-4">
 						<img src="resources/images/2.png" class="responsive">
@@ -212,7 +220,9 @@ h1{
 					<div class="col-md-4">
 						<img src="resources/images/3.png" class="responsive">
 					</div>
+					</form>
 				</div>
+
 
 				<div class="row">
 					<div class="col-md-4">
