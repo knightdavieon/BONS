@@ -58,17 +58,17 @@ include("../accessdb.php");
             <!-- Bread crumb -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h3 class="text-primary">Student List</h3> </div>
+                    <h3 class="text-primary">Order List</h3> </div>
                 <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                        <li class="breadcrumb-item active">Student List</li>
+                        <li class="breadcrumb-item active">Order List</li>
                     </ol>
                 </div>
             </div>
             <!-- End Bread crumb -->
             <!-- Container fluid  -->
-        
+
 
             <div class="container-fluid">
                 <!-- Start Page Content -->
@@ -87,12 +87,13 @@ include("../accessdb.php");
                                                 <td>Order ID</td>
                                                 <td>Table Number</td>
                                                 <td>Status</td>
-                                        
+                                                <td>Action</td>
+
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <?php
-                                               
+
                       $selectcustomer_order = $conn->query("SELECT * FROM customer_order");
                       $i='1';
                       While($rowcustomer_order = $selectcustomer_order->fetch(PDO::FETCH_ASSOC)){
@@ -102,7 +103,7 @@ include("../accessdb.php");
                             <td><?php echo $rowcustomer_order['order_id']; ?></td>
                             <td><?php echo $rowcustomer_order['table_number']; ?></td>
                             <td><?php echo $rowcustomer_order['status']; ?></td>
-                            
+
                              <td>   <!-- Delete -->
                             <button class="btn btn-rounded btn-danger"  href="#deleterecord<?php echo $i;?>" data-toggle="modal" data-target="#deleterecord<?php echo $i;?>"><i class="fa fa-trash" aria-hidden="true"></i></button>
 
