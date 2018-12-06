@@ -300,12 +300,13 @@ include("accessdb.php");
 							</div>
 						</div>
 					</div>
+					<button type="submit" class="btn btn-success">Select Order</button>
 					
 </form>
 				</div>
  
 				<div class="card-footer" style="text-align: right;">
-<button type="submit" class="btn btn-success">Select Order</button>
+
 
 					
 				</div>
