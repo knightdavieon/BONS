@@ -1,19 +1,10 @@
 <?php
 include_once("../accessdb.php");
-echo "asdasdasdas";
 //session_start();
 if (!empty($_POST)){
-	$table1 = $_POST['table1'];
-	$table2 = $_POST['table2'];
-	$table3 = $_POST['table3'];
-	$table4 = $_POST['table4'];
-	$table5 = $_POST['table5'];
-	$table6 = $_POST['table6'];
-	$table7 = $_POST['table7'];
-	$table8 = $_POST['table8'];
-	$table9 = $_POST['table9'];
 
-	$table="table1";
+	
+	$table =$_POST['table1'].$_POST['table2'].$_POST['table3'].$_POST['table4'].$_POST['table5'].$_POST['table6'].$_POST['table7'].$_POST['table8'].$_POST['table9'];
 	$status="On Process";
 	
 

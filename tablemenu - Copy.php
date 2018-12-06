@@ -65,7 +65,7 @@ include("accessdb.php");
 
 
 <body class="hero-image">
-	<form method="POST" action="menu">
+	<form method="POST" action="actions/addorder">
 	<div class="container" >
 		<form style="text-align: center; position: center;">	
 			<div class="card" style="width: 90%; margin-right: auto; margin-left: auto; background-color: #d5f1ea00; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
@@ -117,7 +117,6 @@ include("accessdb.php");
 										</div>
 										<div class="card-footer">
 											<div class="btn-group-toggle" data-toggle="buttons">
-												 <input type="hidden" name="table1" value="">
 												<label class="btn btn-secondary">
 													<input type="checkbox" name="table1" autocomplete="off" value="Table1"> Table 1
 												</label>
@@ -138,7 +137,6 @@ include("accessdb.php");
 										</div>
 										<div class="card-footer">
 											<div class="btn-group-toggle" data-toggle="buttons">
-												 <input type="hidden" name="table2" value="">
 												<label class="btn btn-secondary">
 													<input type="checkbox" name="table2" autocomplete="off" value="Table2"> Table 2
 												</label>
@@ -160,7 +158,6 @@ include("accessdb.php");
 										</div>
 										<div class="card-footer">
 											<div class="btn-group-toggle" data-toggle="buttons">
-												 <input type="hidden" name="table3" value="">
 												<label class="btn btn-secondary">
 													<input type="checkbox" name="table3" autocomplete="off" value="Table3"> Table 3
 												</label>
@@ -185,7 +182,6 @@ include("accessdb.php");
 										</div>
 										<div class="card-footer">
 											<div class="btn-group-toggle" data-toggle="buttons">
-												 <input type="hidden" name="table4" value="">
 												<label class="btn btn-secondary">
 													<input type="checkbox" name="table4" autocomplete="off" value="Table4"> Table 4
 												</label>
@@ -207,7 +203,6 @@ include("accessdb.php");
 										</div>
 										<div class="card-footer">
 											<div class="btn-group-toggle" data-toggle="buttons">
-												 <input type="hidden" name="table5" value="">
 												<label class="btn btn-secondary">
 													<input type="checkbox" name="table5" autocomplete="off" value="Table5"> Table 5
 												</label>
@@ -229,7 +224,6 @@ include("accessdb.php");
 										</div>
 										<div class="card-footer">
 											<div class="btn-group-toggle" data-toggle="buttons">
-												 <input type="hidden" name="table6" value="">
 												<label class="btn btn-secondary">
 													<input type="checkbox" name="table6" autocomplete="off" value="Table6"> Table 6
 												</label>
@@ -254,7 +248,6 @@ include("accessdb.php");
 										</div>
 										<div class="card-footer">
 											<div class="btn-group-toggle" data-toggle="buttons">
-												 <input type="hidden" name="table7" value="">
 												<label class="btn btn-secondary">
 													<input type="checkbox" name="table7" autocomplete="off" value="Table7"> Table 7
 												</label>
@@ -276,7 +269,6 @@ include("accessdb.php");
 										</div>
 										<div class="card-footer">
 											<div class="btn-group-toggle" data-toggle="buttons">
-												 <input type="hidden" name="table8" value="">
 												<label class="btn btn-secondary">
 													<input type="checkbox" name="table8" autocomplete="off" value="Table8"> Table 8
 												</label>
@@ -298,7 +290,6 @@ include("accessdb.php");
 										</div>
 										<div class="card-footer">
 											<div class="btn-group-toggle" data-toggle="buttons">
-												 <input type="hidden" name="table9" value="">
 												<label class="btn btn-secondary">
 													<input type="checkbox" name="table9" autocomplete="off" value="Table9"> Table 9
 												</label>

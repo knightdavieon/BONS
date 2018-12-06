@@ -10,6 +10,9 @@
                  <li> <a href="orderlist" aria-expanded="false"><i class="fa fa-list"></i><span class="hide-menu">Order List </span></a>
                 </li>
                 <li class="nav-devider"></li>
+                 <li> <a href="orderlist" aria-expanded="false"><i class="fa fa-list"></i><span class="hide-menu">Menu </span></a>
+                </li>
+                <li class="nav-devider"></li>
                 <li class="nav-label">Settings</li>
                 <li> <a href="accounts" aria-expanded="false"><i class="fa fa-user"></i><span class="hide-menu">Accounts </span></a>
                 </li>

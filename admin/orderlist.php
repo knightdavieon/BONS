@@ -13,11 +13,10 @@ include("../accessdb.php");
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="This is a websystem that is created for the compliance of the requirements for the capstone project of the student clients">
     <meta name="author" content="John Dave Espinosa">
-    <link rel="icon" type="../resources/images/png" sizes="16x16" href="../resources/images/GADDSEAPLOGOV2.png">
+  
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="#">
-
-    <title>GADDSEAP</title>
+ 
+    <title>BON'S RESTAURANT</title>
     <!-- Bootstrap Core CSS -->
     <link href="../resources/admindesign/css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -58,11 +57,11 @@ include("../accessdb.php");
             <!-- Bread crumb -->
             <div class="row page-titles">
                 <div class="col-md-5 align-self-center">
-                    <h3 class="text-primary">Student List</h3> </div>
+                    <h3 class="text-primary">Order List</h3> </div>
                 <div class="col-md-7 align-self-center">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
-                        <li class="breadcrumb-item active">Student List</li>
+                        <li class="breadcrumb-item active">Order List</li>
                     </ol>
                 </div>
             </div>
@@ -87,6 +86,7 @@ include("../accessdb.php");
                                                 <td>Order ID</td>
                                                 <td>Table Number</td>
                                                 <td>Status</td>
+                                                <td>Actions</td>
                                         
                                             </tr>
                                         </thead>

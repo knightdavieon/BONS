@@ -1,3 +1,7 @@
+<?php
+include_once("accessdb.php");
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -157,8 +161,8 @@ label{
 				<label><b>Waiter's Name: </b><input type="text" name="" value=" Ivan D. Doropan" readonly style="width: 200px; height: 30px; border-style: none;"></label>
 				<div class="row">
 					<div class="col-md-6">
-						<label>Customer's Name</label>
-						<input type="text" name="" class="form-control">
+						<label>Order ID</label>
+						<input type="text" name="orderid" class="form-control">
 					</div>
 
 					<div class="col-md-6">
