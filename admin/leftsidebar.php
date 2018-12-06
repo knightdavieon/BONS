@@ -15,6 +15,7 @@
                 <li class="nav-devider"></li>
                 <li class="nav-label">Settings</li>
                 <li> <a href="accounts" aria-expanded="false"><i class="fa fa-user"></i><span class="hide-menu">Accounts </span></a>
+                <li> <a href="tables" aria-expanded="false"><i class="fa fa-table"></i><span class="hide-menu">Tables </span></a>
                 </li>
 
             </ul>
