@@ -2,7 +2,7 @@
 session_start();
 include('../../../accessdb.php');
 $id = $_POST['accountid'];
-$deactivateuser = $conn->prepare("DELETE FROM accounts WHERE account_id = :id");
+$deactivateuser = $conn->prepare("DELETE FROM menu WHERE item_id = :id");
 						$deactivateuser->execute(array(
 						    "id" => $id
 						));
@@ -18,11 +18,11 @@ $deactivateuser = $conn->prepare("DELETE FROM accounts WHERE account_id = :id");
 			                "logtimedate" => $logdate
 			            ));
 						*/
-						$_SESSION['accountsNotifications'] = "<div class='alert alert-primary' role='alert'><strong>Success!</strong> Account Deleted!<button type='button' class='close' data-dismiss='alert' aria-label='Close'>
+						$_SESSION['accountsNotifications'] = "<div class='alert alert-primary' role='alert'><strong>Success!</strong> Menu Deleted!<button type='button' class='close' data-dismiss='alert' aria-label='Close'>
 							    <span aria-hidden='true'>&times;</span>
 							  </button></div>";
 							  echo "<script language='JavaScript'>
-						window.location.href='../../accounts';
+						window.location.href='../../menu';
 							</SCRIPT>";
 
 

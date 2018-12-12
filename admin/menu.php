@@ -87,7 +87,7 @@ include("sessionhandler.php");
                             </div>
                             <div class="card-body">
 
-                                <form method="POST" action="actions/accounts/addaccount.php">
+                                <form method="POST" action="actions/menu/addmenu.php">
                                     <div class="form-body">
                                          <br>
                                         <div class="row p-t-5">
@@ -128,13 +128,13 @@ include("sessionhandler.php");
                                         <div class="row">
                                             <div class="col-md-6">
                                                <div class="form-group">
-                                                    <input type="text" name="regularprice"  class="form-control" placeholder="Regular">
+                                                    <input type="text" name="regular_price"  class="form-control" placeholder="Regular">
                                                 </div>
                                             </div>
                                             <!--/span-->
                                             <div class="col-md-6">
                                                <div class="form-group">
-                                                    <input type="text" name="mediumprice"  class="form-control" placeholder="Medium">
+                                                    <input type="text" name="medium_price"  class="form-control" placeholder="Medium">
                                                 </div>
                                             </div>
                                             <!--/span-->
@@ -143,7 +143,7 @@ include("sessionhandler.php");
                                         <div class="row">
                                             <div class="col-md-6">
                                                <div class="form-group">
-                                                    <input type="text" name="largeprice"  class="form-control" placeholder="Large">
+                                                    <input type="text" name="large_price"  class="form-control" placeholder="Large">
                                                 </div>
                                             </div>
                                             <!--/span-->
@@ -210,7 +210,7 @@ include("sessionhandler.php");
                                               
 
                                                      <!-- Delete -->
-                                                    <button class="btn btn-rounded btn-danger"  href="#deleteaccount<?php echo $i;?>" data-toggle="modal" data-target="#deleteaccount<?php echo $i;?>"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                                                    <button class="btn btn-rounded btn-danger"  href="#deletemenu<?php echo $i;?>" data-toggle="modal" data-target="#deletemenu<?php echo $i;?>"><i class="fa fa-trash" aria-hidden="true"></i></button>
 
                                                     
 
@@ -222,7 +222,7 @@ include("sessionhandler.php");
 
                                                 </td>
                                             </tr>
-                                            <?php include('actions/menu/menupop.php');
+                                            <?php include('modalmenu.php');
                                             $i++;
                                         } ?>
                                         </tbody>

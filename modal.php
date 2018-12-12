@@ -4,13 +4,15 @@
 
 
 									<!-- pancit seafood -->
-									<div class="modal fade" id="pancit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal fade" id="pancit1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 										 <form action="actions/addorder" method="post">
 											  <div class="modal-dialog modal-lg" role="document">
 
 											    <div class="modal-content">
 											      	<div class="modal-header">
 											      		<?php echo $id; ?>
+											      		<?php echo $i; ?>
+											      		<?php echo $rowmenu['name'];?>
 											      		<input type="hidden" name="id" value="<?php echo $id; ?>">
 											        	<h1>Pancit Style's</h1>
 											      	</div>
@@ -18,7 +20,7 @@
 												      <div class="modal-body">
 												      	<label for="">Category</label>
 												      	<input type="hidden" name="category" value="">
-												      		<input type="hidden" name="item" value="pancit cantoon">
+												      		<input type="hidden" name="item" value="<?php echo $rowmenu['name']?>">
 												      			<input type="hidden" name="price" value="200">
 												      	<div class="custom-control custom-radio">
 												      		<input type="radio" id="customRadio1" name="category" class="custom-control-input" value="Regular">
@@ -921,3 +923,4 @@
 		});
 
 	</script>
+

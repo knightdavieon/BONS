@@ -194,11 +194,12 @@ if (!empty($_POST)){
         While($rowmenu = $selectmenu->fetch(PDO::FETCH_ASSOC)){ ?>
           <div class="row">
             <div class="col-md-4">
-              <label>Pancit Seafood</label>
-              <a href="#pancit" role="button" data-toggle="modal"> <img src="resources/images/pancitseafood.png" class="responsive"></a>
+              <label><?php echo $rowmenu['name'];?></label>
+              <a href="#pancit<?php echo $i;?>" role="button" data-toggle="modal" data-target="#pancit<?php echo $i;?>"> <img src="resources/images/pancitseafood.png" class="responsive"></a>
             </div>
 
           </div>
+           <?php include("modal.php");?>
           <?php $i++;} ?>
 
           <!-- <div class="row">
@@ -543,7 +544,7 @@ function date_time(id)
 }
 </script>
 <script type="text/javascript">window.onload = date_time('date_time');</script>
-<?php include("modal.php");?>
+
 <?php include("modalseafood.php");?>
 </body>
 
