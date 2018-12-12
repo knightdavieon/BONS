@@ -133,7 +133,9 @@ label{
                                 <div class="card p-30">
 
                                     <div class="card-body">
-
+                                        <form method="post" action="orderlist.php">
+                                         <button class="btn btn-rounded btn-primary"><i class="fa fa-id-card" aria-hidden="true"> Order List</i></button>
+                                     </form>
                                          <div class="table-responsive">
                                     <table id="myTable2" class="table table-bordered table-striped">
                                         <thead>

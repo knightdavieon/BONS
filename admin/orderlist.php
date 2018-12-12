@@ -133,18 +133,18 @@ include("../accessdb.php");
                             ?>
 
                             <td>   <!-- Delete -->
-                              <button class="btn btn-rounded btn-danger"  href="#deleterecord<?php echo $i;?>" data-toggle="modal" data-target="#deleterecord<?php echo $i;?>"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                              <button class="btn btn-rounded btn-danger"  href="#deleterecord<?php echo $i;?>" data-toggle="modal" data-target="#deleterecord<?php echo $i;?>"> Delete<i class="fa fa-trash" aria-hidden="true"></i></button>
 
 
                               <!-- Edit -->
                               <form method="post" action="../menu2.php">
                                 <input type="hidden" name="selectedid" value="<?php echo $selectedid;?>">
-                                <button class="btn btn-rounded btn-primary" ><i class="fa fa-id-card" aria-hidden="true"></i></button>
+                                <button class="btn btn-rounded btn-primary" ><i class="fa fa-id-card" aria-hidden="true"> Take Order</i></button>
                               </form>
 
                               <form method="post" action="order.php">
                                 <input type="hidden" name="selectedid" value="<?php echo $selectedid;?>">
-                                <button class="btn btn-rounded btn-primary" ><i class="fa fa-id-card" aria-hidden="true"></i></button>
+                                <button class="btn btn-rounded btn-primary" ><i class="fa fa-id-card" aria-hidden="true"> View Order</i></button>
                               </form>
                             </td>
                           </tr>

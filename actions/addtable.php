@@ -2,9 +2,16 @@
 include_once("../accessdb.php");
 //session_start();
 if (!empty($_POST)){
+$table="";
+	$selectcustomer_order = $conn->query("SELECT * FROM tabless");
+	$i='1';
+	While($rowcustomer_order = $selectcustomer_order->fetch(PDO::FETCH_ASSOC)){
 
 
-	$table =$_POST['table1'].$_POST['table2'].$_POST['table3'].$_POST['table4'].$_POST['table5'].$_POST['table6'];
+		$table = $table.$_POST['table'.$i]." ";
+
+		$i++; }
+
 	$status = 'On Process';
 	
 

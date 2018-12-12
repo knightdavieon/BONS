@@ -1,7 +1,9 @@
 <?php 
 include('accessdb.php');
+include('admin/sessionhandler.php');
 if (!empty($_POST)){
     $id = $_POST['selectedid'];
+   
 }
 ?>
 <!DOCTYPE html>
@@ -159,84 +161,17 @@ label{
 	<div class="container-fluid">
 		<div class="col-md-12">
 			<h1>Bon's Menu</h1>
-			<form>
-				<label><b>Waiter's Name: </b><input type="text" name="" value=" Ivan D. Doropan" readonly style="width: 200px; height: 30px; border-style: none;"></label>
+			
+				<label><b>Waiter's Name: </b><input type="text" name="" value="<?php echo$_SESSION['accountname'];?>" readonly style="width: 200px; height: 30px; border-style: none;"></label>
+                
 			<div class="row">
-                                            <div class="col-md-2">
-
-                                                <input type="hidden" name="table1" value="">
-                                                <div class="btn-group-toggle" data-toggle="buttons">
-                                                    <label class="btn btn-secondary">
-                                                      <input type="checkbox" name="table1" autocomplete="off" value="Table1"> Table 1
-                                                  </label>
-                                              </div>
-                                          </div>
-
-
-
-                                          <div class="col-md-2">
-
-
-                                            <input type="hidden" name="table2" value="">
-                                            <div class="btn-group-toggle" data-toggle="buttons">
-                                                <label class="btn btn-secondary">
-                                                  <input type="checkbox" name="table2" autocomplete="off" value="Table2"> Table 2
-                                              </label>
-                                          </div>
-                                      </div>
-
-
-                                      <div class="col-md-2">
-
-
-                                        <input type="hidden" name="table3" value="">
-                                        <div class="btn-group-toggle" data-toggle="buttons">
-                                            <label class="btn btn-secondary">
-                                              <input type="checkbox" name="table3" autocomplete="off" value="Table3"> Table 3
-                                          </label>
-                                      </div>
-                                  </div>
-
-
-                                  <div class="col-md-2">
-
-
-                                    <input type="hidden" name="table4" value="">
-                                    <div class="btn-group-toggle" data-toggle="buttons">
-                                        <label class="btn btn-secondary">
-                                          <input type="checkbox" name="table4" autocomplete="off" value="Table4"> Table 4
-                                      </label>
-                                  </div>
-                              </div>
-
-
-                              <div class="col-md-2">
-
-
-                                <input type="hidden" name="table5" value="">
-                                <div class="btn-group-toggle" data-toggle="buttons">
-                                    <label class="btn btn-secondary">
-                                      <input type="checkbox" name="table5" autocomplete="off" value="Table5"> Table 5
-                                  </label>
-                              </div>
-                          </div>
-
-
-                          <div class="col-md-2">
-
-
-                            <input type="hidden" name="table6" value="">
-                            <div class="btn-group-toggle" data-toggle="buttons">
-                                <label class="btn btn-secondary">
-                                  <input type="checkbox" name="table6" autocomplete="off" value="Table6"> Table 6
-                              </label>
-                          </div>
-                      </div>
-
-
-
+                <div class="col-md-2">
+                    <form method="post" action="admin/orderlist.php">
+                   <button class="btn btn-rounded btn-primary"><i class="fa fa-id-card" aria-hidden="true"> Order List</i></button>
+               </form>
+               </div>
                   </div>
-			</form>
+		
 				
 					
 					<h2>Menu Tabs</h2>
