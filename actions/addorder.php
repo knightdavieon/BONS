@@ -3,38 +3,36 @@ include_once("../accessdb.php");
 //session_start();
 if (!empty($_POST)){
 
+	$id = $_POST['id'];
+	$item= $_POST['item'];
+	$quantity = $_POST['quantity'];
+	$price = $_POST['price'];
 	
-	$table =$_POST['table1'].$_POST['table2'].$_POST['table3'].$_POST['table4'].$_POST['table5'].$_POST['table6'].$_POST['table7'].$_POST['table8'].$_POST['table9'];
 	$status="On Process";
+	$total = $quantity * $price;
 	
 
 	date_default_timezone_set('Asia/Manila');
 	$date = date('mdY');
 
-	function generateCode() {
-		$characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';
-		Global $generatedId;
-		Global $usercode;
-		$random_string_length = 6;
-		$max = strlen($characters) - 1;
-		for ($i = 0; $i < $random_string_length; $i++) {
-			$usercode .= $characters[mt_rand(0, $max)];
-		}
-	}
-	generateCode();
-	$upcode = $date . $usercode;
+	
 
-	$insertpersonal = $conn->prepare("INSERT INTO customer_order(order_id, table_number, status)
-	    VALUES(:order_id, :table_number, :status)");
-		$insertpersonal->execute(array(
-			"order_id" => $upcode,
-		    "table_number" => $table,
+	
+		$orderlist = $conn->prepare("INSERT INTO orderlist(order_id, item, quantity, price, total, status)
+	    VALUES(:order_id, :item, :quantity, :price, :total, :status)");
+		$orderlist->execute(array(
+			"order_id" => $id,
+		   
+		    "item" => $item,
+		    "quantity" => $quantity,
+		     "price" => $price,
+		     "total" => $total,
 		    "status" => $status
 		   
 		));
 
 	echo "<script language='JavaScript'>
-						window.location.href='../menu.php';
+						window.location.href='../menu2.php';
 							</SCRIPT>";
 
 }

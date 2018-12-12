@@ -5,77 +5,47 @@
 
 									<!-- pancit seafood -->
 									<div class="modal fade" id="pancit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										 <form action="actions/addorder" method="post">
 											  <div class="modal-dialog modal-lg" role="document">
+
 											    <div class="modal-content">
 											      	<div class="modal-header">
+											      		<?php echo $id; ?>
+											      		<input type="hidden" name="id" value="<?php echo $id; ?>">
 											        	<h1>Pancit Style's</h1>
 											      	</div>
+
 												      <div class="modal-body">
-												      	<div class="row">
-												      	<div class="col-md-6" style="margin-right: 0; padding-left: 0; padding-right: 0;">
-													       	<div class="col-md-12" style="">
-													       		<div class="row">
-													       		<div class="col-md-4">
-														       		<label class="container">Regular
-																	  
-																</div>
-																<div class="col-md-8" style="margin-bottom: 10px;">
+												      	<label for="">Category</label>
+												      	<input type="hidden" name="category" value="">
+												      		<input type="hidden" name="item" value="pancit cantoon">
+												      			<input type="hidden" name="price" value="200">
+												      	<div class="custom-control custom-radio">
+												      		<input type="radio" id="customRadio1" name="category" class="custom-control-input" value="Regular">
+												      		<label class="custom-control-label" for="customRadio1">Regular</label>
+												      	</div>
+												      	<div class="custom-control custom-radio">
+												      		<input type="radio" id="customRadio2" name="category" class="custom-control-input" value="Medium">
+												      		<label class="custom-control-label" for="customRadio2">Medium</label>
+												      	</div>
+												      	<div class="custom-control custom-radio">
+												      		<input type="radio" id="customRadio3" name="category" class="custom-control-input" value="Large">
+												      		<label class="custom-control-label" for="customRadio3">Large</label>
+												      	</div>
+												      	<div class="col-md-8" style="margin-bottom: 10px;">
 																	<div id=field1>
 																	  <button type="button" id="sub1" class="sub" style="background-color: #d3362a; height: 30px; width: 30px; border-radius: 2px; color: white; font-weight: bold;">-</button>
-																	  <input type="text" id="1" value=0 class=field>
+																	  <input type="text" id="1" name="quantity" value=0 class=field>
 																	  <button type="button" id="add1" class="add" style="background-color: #2f9a36; height: 30px; width: 30px; border-radius: 2px; color: white; font-weight: bold;">+</button>
 																	</div>
 																</div>
-																</div>
-													       	</div>
 
-													       	<div class="col-md-12" style="">
-													       		<div class="row">
-													       		<div class="col-md-4">
-														       		<label class="container">Medium
-																	 
-																	</label>
-																</div>
-																<div class="col-md-8" style="margin-bottom: 10px;">
-																	<div id=field1>
-																	  <button type="button" id="sub1" class="sub" style="background-color: #d3362a; height: 30px; width: 30px; border-radius: 2px; color: white; font-weight: bold;">-</button>
-																	  <input type="text" id="1" value=0 class=field>
-																	  <button type="button" id="add1" class="add" style="background-color: #2f9a36; height: 30px; width: 30px; border-radius: 2px; color: white; font-weight: bold;">+</button>
-																	</div>
-																</div>
-																</div>
-													       	</div>
-
-													       	<div class="col-md-12" style="">
-													       		<div class="row">
-													       		<div class="col-md-4">
-														       		<label class="container">Large
-																	  
-																	</label>
-																</div>
-																<div class="col-md-8" style="margin-bottom: 10px;">
-																	<div id=field1>
-																	  <button type="button" id="sub1" class=sub style="background-color: #d3362a; height: 30px; width: 30px; border-radius: 2px; color: white; font-weight: bold;">-</button>
-																	  <input type="text" id="1" value=0 class=field>
-																	  <button type="button" id="add1" class=add style="background-color: #2f9a36; height: 30px; width: 30px; border-radius: 2px; color: white; font-weight: bold;">+</button>
-																	</div>
-																</div>
-																</div>
-													       	</div>
-													              														      	
-													    </div>
-
-													    <div class="col-md-6">
-													    	<label>Total Bills: </label>
-													    	<input type="text" name="" value="P2000.00" style="border-style: none;" readonly>
-													    </div>
-
-													    </div>
 												      </div>
 											      <div class="modal-footer">
-											      	<button type="button" class="btn btn-primary">Add</button>
+											      	<button type="submit" class="btn btn-primary">Add</button>
 											        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 											      </div>
+											  </form>
 											    </div>
 											  </div>
 										</div>
@@ -221,18 +191,8 @@
 													    </div>
 
 													    <div class="col-md-6">
-													    	<label style="font-weight: bold;">Choose Table</label>
-													    	<select name="Tables" class="form-control">
-																  <option value="Table 1">Table 1</option>
-																  <option value="Table 2">Table 2</option>
-																  <option value="Table 3">Table 3</option>
-																  <option value="Palauig">Table 4</option>
-																  <option value="Table 5">Table 5</option>
-																  <option value="Table 6">Table 6</option>
-																  <option value="Table 7">Table 7</option>
-																  <option value="Table 8">Table 8</option>
-																  <option value="Table 9">Table 9</option>
-															</select>
+													    	<label>Total Bills: </label>
+													    	<input type="text" name="" value="P2000.00" style="border-style: none;" readonly>
 													    </div>
 													    </div>
 												      </div>
@@ -309,17 +269,8 @@
 
 													    <div class="col-md-6">
 													    	<label style="font-weight: bold;">Choose Table</label>
-													    	<select name="Tables" class="form-control">
-																  <option value="Table 1">Table 1</option>
-																  <option value="Table 2">Table 2</option>
-																  <option value="Table 3">Table 3</option>
-																  <option value="Palauig">Table 4</option>
-																  <option value="Table 5">Table 5</option>
-																  <option value="Table 6">Table 6</option>
-																  <option value="Table 7">Table 7</option>
-																  <option value="Table 8">Table 8</option>
-																  <option value="Table 9">Table 9</option>
-															</select>
+													    	<label>Total Bills: </label>
+													    	<input type="text" name="" value="P2000.00" style="border-style: none;" readonly>
 													    </div>
 													    </div>
 												      </div>
@@ -395,18 +346,8 @@
 													    </div>
 
 													    <div class="col-md-6">
-													    	<label style="font-weight: bold;">Choose Table</label>
-													    	<select name="Tables" class="form-control">
-																  <option value="Table 1">Table 1</option>
-																  <option value="Table 2">Table 2</option>
-																  <option value="Table 3">Table 3</option>
-																  <option value="Palauig">Table 4</option>
-																  <option value="Table 5">Table 5</option>
-																  <option value="Table 6">Table 6</option>
-																  <option value="Table 7">Table 7</option>
-																  <option value="Table 8">Table 8</option>
-																  <option value="Table 9">Table 9</option>
-															</select>
+													    	<label>Total Bills: </label>
+													    	<input type="text" name="" value="P2000.00" style="border-style: none;" readonly>
 													    </div>
 													    </div>
 												      </div>
@@ -482,18 +423,8 @@
 													    </div>
 
 													    <div class="col-md-6">
-													    	<label style="font-weight: bold;">Choose Table</label>
-													    	<select name="Tables" class="form-control">
-																  <option value="Table 1">Table 1</option>
-																  <option value="Table 2">Table 2</option>
-																  <option value="Table 3">Table 3</option>
-																  <option value="Palauig">Table 4</option>
-																  <option value="Table 5">Table 5</option>
-																  <option value="Table 6">Table 6</option>
-																  <option value="Table 7">Table 7</option>
-																  <option value="Table 8">Table 8</option>
-																  <option value="Table 9">Table 9</option>
-															</select>
+													    	<label>Total Bills: </label>
+													    	<input type="text" name="" value="P2000.00" style="border-style: none;" readonly>
 													    </div>
 													    </div>
 												      </div>
@@ -569,18 +500,8 @@
 													    </div>
 
 													    <div class="col-md-6">
-													    	<label style="font-weight: bold;">Choose Table</label>
-													    	<select name="Tables" class="form-control">
-																  <option value="Table 1">Table 1</option>
-																  <option value="Table 2">Table 2</option>
-																  <option value="Table 3">Table 3</option>
-																  <option value="Palauig">Table 4</option>
-																  <option value="Table 5">Table 5</option>
-																  <option value="Table 6">Table 6</option>
-																  <option value="Table 7">Table 7</option>
-																  <option value="Table 8">Table 8</option>
-																  <option value="Table 9">Table 9</option>
-															</select>
+													    	<label>Total Bills: </label>
+													    	<input type="text" name="" value="P2000.00" style="border-style: none;" readonly>
 													    </div>
 													    </div>
 												      </div>
@@ -656,18 +577,8 @@
 													    </div>
 
 													    <div class="col-md-6">
-													    	<label style="font-weight: bold;">Choose Table</label>
-													    	<select name="Tables" class="form-control">
-																  <option value="Table 1">Table 1</option>
-																  <option value="Table 2">Table 2</option>
-																  <option value="Table 3">Table 3</option>
-																  <option value="Palauig">Table 4</option>
-																  <option value="Table 5">Table 5</option>
-																  <option value="Table 6">Table 6</option>
-																  <option value="Table 7">Table 7</option>
-																  <option value="Table 8">Table 8</option>
-																  <option value="Table 9">Table 9</option>
-															</select>
+													    	<label>Total Bills: </label>
+													    	<input type="text" name="" value="P2000.00" style="border-style: none;" readonly>
 													    </div>
 													    </div>
 												      </div>
@@ -743,18 +654,8 @@
 													    </div>
 
 													    <div class="col-md-6">
-													    	<label style="font-weight: bold;">Choose Table</label>
-													    	<select name="Tables" class="form-control">
-																  <option value="Table 1">Table 1</option>
-																  <option value="Table 2">Table 2</option>
-																  <option value="Table 3">Table 3</option>
-																  <option value="Palauig">Table 4</option>
-																  <option value="Table 5">Table 5</option>
-																  <option value="Table 6">Table 6</option>
-																  <option value="Table 7">Table 7</option>
-																  <option value="Table 8">Table 8</option>
-																  <option value="Table 9">Table 9</option>
-															</select>
+													    	<label>Total Bills: </label>
+													    	<input type="text" name="" value="P2000.00" style="border-style: none;" readonly>
 													    </div>
 													    </div>
 												      </div>
@@ -830,18 +731,8 @@
 													    </div>
 
 													    <div class="col-md-6">
-													    	<label style="font-weight: bold;">Choose Table</label>
-													    	<select name="Tables" class="form-control">
-																  <option value="Table 1">Table 1</option>
-																  <option value="Table 2">Table 2</option>
-																  <option value="Table 3">Table 3</option>
-																  <option value="Palauig">Table 4</option>
-																  <option value="Table 5">Table 5</option>
-																  <option value="Table 6">Table 6</option>
-																  <option value="Table 7">Table 7</option>
-																  <option value="Table 8">Table 8</option>
-																  <option value="Table 9">Table 9</option>
-															</select>
+													    	<label>Total Bills: </label>
+													    	<input type="text" name="" value="P2000.00" style="border-style: none;" readonly>
 													    </div>
 													    </div>
 												      </div>
@@ -917,18 +808,8 @@
 													    </div>
 
 													    <div class="col-md-6">
-													    	<label style="font-weight: bold;">Choose Table</label>
-													    	<select name="Tables" class="form-control">
-																  <option value="Table 1">Table 1</option>
-																  <option value="Table 2">Table 2</option>
-																  <option value="Table 3">Table 3</option>
-																  <option value="Palauig">Table 4</option>
-																  <option value="Table 5">Table 5</option>
-																  <option value="Table 6">Table 6</option>
-																  <option value="Table 7">Table 7</option>
-																  <option value="Table 8">Table 8</option>
-																  <option value="Table 9">Table 9</option>
-															</select>
+													    	<label>Total Bills: </label>
+													    	<input type="text" name="" value="P2000.00" style="border-style: none;" readonly>
 													    </div>
 													    </div>
 												      </div>
@@ -1004,18 +885,8 @@
 													    </div>
 
 													    <div class="col-md-6">
-													    	<label style="font-weight: bold;">Choose Table</label>
-													    	<select name="Tables" class="form-control">
-																  <option value="Table 1">Table 1</option>
-																  <option value="Table 2">Table 2</option>
-																  <option value="Table 3">Table 3</option>
-																  <option value="Palauig">Table 4</option>
-																  <option value="Table 5">Table 5</option>
-																  <option value="Table 6">Table 6</option>
-																  <option value="Table 7">Table 7</option>
-																  <option value="Table 8">Table 8</option>
-																  <option value="Table 9">Table 9</option>
-															</select>
+													    	<label>Total Bills: </label>
+													    	<input type="text" name="" value="P2000.00" style="border-style: none;" readonly>
 													    </div>
 													    </div>
 												      </div>
